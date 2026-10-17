@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Browser games for sale — full ownership</title>
+<meta name="description" content="Three finished HTML5 3D browser games for sale with full source code and exclusive rights: Arena Strike, Biljar Mobile, Jungle Rush 3D. Play them before you buy.">
+<style>
+  :root { --bg: #0e1116; --card: #171b22; --text: #e8ebf0; --muted: #9aa3b2; --accent: #ffb02e; --line: #262c36; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); }
+  main { max-width: 980px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 8px; }
+  .lead { color: var(--muted); margin: 0 0 28px; }
+  .game { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; margin-bottom: 28px; }
+  .game img.hero { display: block; width: 100%; aspect-ratio: 16 / 7; object-fit: cover; }
+  .body { padding: 20px 22px 24px; }
+  .head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px; }
+  h2 { margin: 0; font-size: 1.5rem; }
+  .price { color: var(--accent); font-weight: 700; font-size: 1.25rem; }
+  .tag { color: var(--muted); margin: 4px 0 14px; }
+  ul { margin: 0 0 16px; padding-left: 20px; }
+  li { margin: 3px 0; }
+  .shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0 0 16px; }
+  .shots img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 8px; }
+  .btns { display: flex; flex-wrap: wrap; gap: 10px; }
+  a.btn { display: inline-block; padding: 10px 18px; border-radius: 9px; text-decoration: none; font-weight: 600; }
+  a.play { background: var(--accent); color: #111; }
+  a.ask { border: 1px solid var(--line); color: var(--text); }
+  .terms { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 22px; }
+  .terms h2 { font-size: 1.2rem; margin-bottom: 8px; }
+  footer { color: var(--muted); margin-top: 28px; font-size: .9rem; }
+  a { color: var(--accent); }
+  @media (max-width: 640px) { .shots { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Browser games for sale — full ownership</h1>
+  <p class="lead">Three finished HTML5 3D games, each sold <strong>once</strong>: full source code, all assets and exclusive rights.
+    Every game is playable below, in your browser, before you buy. No install, no sign-up.</p>
+
+  <section class="game" id="arena-strike">
+    <img class="hero" src="img/arena-strike.jpg" alt="Arena Strike — Old Town map">
+    <div class="body">
+      <div class="head"><h2>ARENA STRIKE</h2><span class="price">$2,500</span></div>
+      <p class="tag">3D team shooter · three.js, plain ES modules, no build step · desktop + mobile</p>
+      <div class="shots">
+        <img src="img/starigrad-ulice.jpg" alt="Old Town streets" loading="lazy">
+        <img src="img/tvornica-unutra.jpg" alt="Factory interior" loading="lazy">
+        <img src="img/dim.jpg" alt="Smoke grenade" loading="lazy">
+      </div>
+      <ul>
+        <li>6 maps built in Blender with baked lighting, incl. a 640 m battle royale island with plane drop, map and minimap</li>
+        <li>Modes: Duel, Team Deathmatch 2v2–4v4, Free For All, 3- and 4-team squads, Battle Royale, BR Squads</li>
+        <li>20+ weapons, armour, smoke and fire grenades, first-person hands with reload animations</li>
+        <li>Bots with difficulty levels; online lobby + relay server included (zero-dependency Node)</li>
+        <li>Touch controls and quality presets for phones; Poki SDK already integrated</li>
+        <li>Tooling: Blender map pipeline and automated checks (validate, performance, mobile, online)</li>
+        <li>Assets: Poly Haven (CC0), MakeHuman (CC0), three.js (MIT), Mixamo animations (Adobe licence)</li>
+      </ul>
+      <div class="btns">
+        <a class="btn play" href="https://arena-strike-1iq7.onrender.com/?platform=none" target="_blank" rel="noopener">▶ Play Arena Strike</a>
+        <a class="btn ask" href="mailto:fran@grubsterz.com?subject=Arena%20Strike%20%E2%80%94%20full%20ownership">Make an offer</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="game" id="biljar-mobile">
+    <img class="hero" src="img/biljar-mobile.jpg" alt="Biljar Mobile — 8-ball pool table">
+    <div class="body">
+      <div class="head"><h2>BILJAR MOBILE — 8-ball pool</h2><span class="price">$1,500</span></div>
+      <p class="tag">3D 8-ball pool · three.js, TypeScript, Vite · Colyseus match server · desktop + mobile</p>
+      <ul>
+        <li>Official WPA 8-ball rules: called ball and pocket, safety shot, break options</li>
+        <li>Own deterministic pool physics: sliding, rolling, spin; identical results in Node and the browser</li>
+        <li>Online 1v1 in private rooms with an authoritative server</li>
+        <li>Vs computer on three difficulty levels, two players on one device, training with shot replay</li>
+        <li>Touch controls, portrait and landscape layouts; room and table modelled in Blender, sound synthesised (no audio licences)</li>
+        <li>UI text currently in Croatian</li>
+      </ul>
+      <div class="btns">
+        <a class="btn play" href="https://plejarena.onrender.com/games/biljar-mobile/" target="_blank" rel="noopener">▶ Play Biljar Mobile</a>
+        <a class="btn ask" href="mailto:fran@grubsterz.com?subject=Biljar%20Mobile%20%E2%80%94%20full%20ownership">Make an offer</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="game" id="jungle-rush-3d">
+    <img class="hero" src="img/jungle-rush-3d.jpg" alt="Jungle Rush 3D — Piko in the jungle">
+    <div class="body">
+      <div class="head"><h2>JUNGLE RUSH 3D</h2><span class="price">$2,000</span></div>
+      <p class="tag">3D platformer · three.js, TypeScript, Vite · desktop + mobile</p>
+      <ul>
+        <li>100 levels across 10 worlds, 3 stars per level, 10 unlockable skins</li>
+        <li>Original mascot: Piko, a lizard explorer with a red scarf</li>
+        <li>Level kit in TypeScript with automated reachability checks (every level is proven completable)</li>
+        <li>Terrain and characters generated from Blender scripts, so new worlds can be built the same way</li>
+      </ul>
+      <div class="btns">
+        <a class="btn play" href="https://fgrubsterz.github.io/jungle-rush-3d-web/" target="_blank" rel="noopener">▶ Play Jungle Rush 3D</a>
+        <a class="btn ask" href="mailto:fran@grubsterz.com?subject=Jungle%20Rush%203D%20%E2%80%94%20full%20ownership">Make an offer</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="terms">
+    <h2>How a sale works</h2>
+    <ul>
+      <li>Each game is sold to one buyer only. After the sale it comes down from my sites.</li>
+      <li>You get the full source code, all assets and build tools, and the exclusive rights.</li>
+      <li>Payment through escrow (Escrow.com or Flippa), or up front. The code is handed over once payment is in.</li>
+      <li>Prices are asking prices. Serious offers are welcome.</li>
+    </ul>
+    <p>Contact: <a href="mailto:fran@grubsterz.com">fran@grubsterz.com</a></p>
+  </section>
+
+  <footer>Fran Grubišić · Croatia</footer>
+</main>
+</body>
+</html>
